@@ -1,0 +1,41 @@
+body {
+  background-color: #091b2a !important;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgb(17, 163, 228);
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 20px;
+  background-color: rgb(3, 207, 223);
+  box-shadow: rgba(3, 207, 223, 7) 0px 3px 20px 20px;
+}
+
+.dis {
+  color: #efdede;
+}
+
+.distance {
+  height: 100px;
+}
+
+@media (max-width: 584px) {
+  .distance {
+    height: 60px;
+  }
+}

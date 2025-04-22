@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+:root {
+  --main-color : rgb(3,207,223);
+  --navbar-color : #101f35b5;
+  --box-shadow:  rgba(3,207,223,7) -1px 1px 16px ;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}

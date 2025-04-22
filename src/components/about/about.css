@@ -1,0 +1,82 @@
+.about {
+ color: #fff;
+ padding: 30px 0;
+ text-align: center;
+}
+
+.about h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.about h1 span {
+    color: var(--main-color);
+}
+
+.about .imag {
+ margin: 30px 0;
+ text-align: center;
+}
+
+.about .imag .circle {
+    width: fit-content;
+    border: 2px solid var(--main-color);
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.about .imag .circle::after {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    padding: 10px;
+    border: 2px solid;
+    border-color: var(--main-color) transparent;
+    top: -15px;
+    left: -14px;
+    border-radius: 64%;
+    animation: Spins 9s linear infinite;
+}
+
+.about .imag img {
+    max-width: 200px;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+}
+
+
+
+.about .title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--main-color);
+}
+
+.about .dis {
+    width: 555px;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    color: #efdede;
+}
+
+@media (max-width:500px) {
+    .about .dis {
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
+
+/* ===============> animation <================= */
+@keyframes Spins {
+    0% {
+        transform: rotateZ(0deg);
+      }
+      100% {
+        transform: rotateZ(359deg);
+      }
+  }

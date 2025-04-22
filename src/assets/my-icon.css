@@ -1,0 +1,37 @@
+
+.my-icon  .icons {
+    margin-top: 25px;
+}
+
+.my-icon  .icons span {
+    height: 25px;
+    width: 25px;
+    padding: 17px;
+    border: 1px solid var(--main-color);
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.my-icon  .icons span:hover {
+    background-color: var(--main-color);
+    box-shadow: var(--box-shadow);
+}
+
+
+
+.my-icon  .icons span a {
+    color: #03cfdf;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.my-icon  .icons span:hover a {
+    color: #091b2a;
+}
+

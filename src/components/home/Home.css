@@ -1,0 +1,162 @@
+.home {
+    padding: 30px 0;
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+} 
+
+.home .container {
+    height: 100%;
+}
+
+.home .row {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.home .text {
+    color: #fff;
+}
+
+.home .text h1 {
+    color: var(--main-color);
+    font-size: 61px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.home h3 {
+    font-weight: 300;
+}
+
+.home .text h3 span {
+    color: var(--main-color);
+    text-shadow: 0px 0px 7px #03cfdf;
+    font-weight: bold;
+}
+
+.home .text p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.home .photo {
+    text-align: center;
+}
+
+.home .photo img {
+    max-width: 100%;
+    width: 500px;
+    animation: revolving 6s linear infinite;
+}
+
+
+.home .text .icons {
+    margin-top: 25px;
+}
+
+.home .text .icons span {
+    height: 25px;
+    width: 25px;
+    padding: 17px;
+    border: 1px solid var(--main-color);
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.home .text .icons span:hover {
+    background-color: var(--main-color);
+    box-shadow: var(--box-shadow);
+}
+
+
+
+.home .text .icons span a {
+    color: #03cfdf;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.home .text .icons span:hover a {
+    color: #091b2a;
+}
+
+
+.home .text button {
+    margin-top: 25px;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 13px 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s ease-in;
+}
+
+.home .text button:hover {
+    background-color: transparent;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+.home .text button a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s ease-in;
+}
+
+
+
+.home .text button:hover a span {
+    background-color: transparent;
+    color: var(--main-color);
+}
+
+
+.home .text button span {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #fff;
+    color: var(--main-color);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    transition: 0.4s ease-in;
+}
+
+
+
+/* ===============> media <================= */
+@media (max-width:768px) {
+    .home .photo img {
+        max-width: 100%;
+        width: 400px;
+        animation: revolving 6s linear infinite;
+    }
+}
+
+@media (max-width:485px) {
+    .home  .text h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+}
+
+
+/* ===============> animation <================= */
+@keyframes revolving {
+    0%, 100% {
+        transform: translateY(20px);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+  }
