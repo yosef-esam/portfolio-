@@ -63,8 +63,7 @@ const Work = () => {
             <div className="itme__text">
               <h2>Food Mine Dashboard</h2>
               <p>
-                A sleek dashboard built with the MERN stack to manage your food
-                store, track orders, and handle deliveries with ease.
+               A sleek MERN dashboard to manage your food store, track orders, and handle deliveries.
               </p>
 
               <div className="icon">
