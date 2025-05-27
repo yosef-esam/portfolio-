@@ -24,7 +24,7 @@ const Home = () => {
             data-aos-duration="1500"
           >
             <h3>HELLO I'M</h3>
-            <h1>youssef essam</h1>
+            <h1>yousef esam</h1>
             <h3>
               I'M A <span>{text}</span>
               <span>
