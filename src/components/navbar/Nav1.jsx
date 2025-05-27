@@ -19,7 +19,7 @@ const Nav1 = () => {
     <div className={navbar ? "navbar active" : "navbar"}>
       <div className="container1">
         <div className="logo">
-          <h2>Youssef Essam</h2>
+          <h2>Yousef Esam</h2>
         </div>
         <div className="links">
           <p>
