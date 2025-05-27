@@ -42,7 +42,7 @@ const Home = () => {
             <MyIcon />
             <button>
               <a
-                href="https://drive.google.com/file/d/1zGJCUb-clJsv5DKEn4vUqBaeVyteCB3i/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Vbg6z0Ah25tTGHqrIJEacidIbXlow1U5/view?usp=sharing"
                 target="blank"
               >
                 Download CV{" "}
