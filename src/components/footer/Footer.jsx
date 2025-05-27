@@ -15,7 +15,7 @@ const Footer = () => {
         <h3>
           © 2023 Proudly Powered by
           <a href="#home">
-            <span>Youssef</span>
+            <span>Yousef</span>
           </a>
         </h3>
       </div>
